@@ -16,5 +16,5 @@ Including another URLconf
 from django.conf.urls import url
 
 urlpatterns = [
-    url(r'^', include('apps.first_app.urls', namespace = 'home')),
+    url(r'^', include('apps.first_app.urls')),
 ]
