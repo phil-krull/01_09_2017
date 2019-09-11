@@ -8,6 +8,8 @@
     <h1>On Show page</h1>
     <h3>The servers says: {{ name }}</h3>
     <p>(Must have a response from the server!)</p>
+    <h3>This should display the count value in session: {{ request.session.count }}</h3>
     <a href="/">Go to Index page</a>
+    <a href="/start_over">Reset</a>
   </body>
 </html>
